@@ -1,0 +1,59 @@
+Manifest-Version: 1.0
+Service-Component: OSGI-INF/serviceComponents.xml
+Export-Package: org.wso2.carbon.mediation.dependency.mgt.services;uses
+ :="org.apache.synapse.config,org.apache.commons.logging,org.wso2.carb
+ on.mediation.dependency.mgt,org.osgi.framework,org.wso2.carbon.contex
+ t";version="4.2.0",org.wso2.carbon.mediation.dependency.mgt;uses:="or
+ g.osgi.framework,org.apache.commons.logging,org.osgi.service.componen
+ t,org.wso2.carbon.mediation.dependency.mgt.services,org.apache.synaps
+ e,org.wso2.carbon.mediators.router.impl,org.apache.synapse.mediators.
+ transform,org.apache.synapse.mediators.eip.splitter,org.apache.synaps
+ e.mediators.base,org.apache.synapse.mediators.builtin,org.apache.syna
+ pse.mediators.throttle,org.apache.synapse.mediators.spring,org.wso2.c
+ arbon.mediation.dependency.mgt.resolvers,org.apache.synapse.mediators
+ .bsf,org.apache.synapse.mediators.xquery,org.apache.synapse.core.axis
+ 2,org.apache.synapse.endpoints,org.apache.synapse.eventing,org.apache
+ .synapse.config";version="4.2.0",org.wso2.carbon.mediation.dependency
+ .mgt.resolvers;uses:="org.apache.synapse.mediators.eip,org.apache.syn
+ apse,org.wso2.carbon.mediation.dependency.mgt,org.apache.synapse.endp
+ oints,org.apache.synapse.mediators.base,org.apache.synapse.mediators,
+ org.apache.synapse.mediators.builtin,org.apache.synapse.mediators.eip
+ .splitter,org.wso2.carbon.mediators.router.impl,org.apache.synapse.me
+ diators.bsf,org.apache.synapse.mediators.spring,org.apache.synapse.me
+ diators.throttle,org.apache.synapse.mediators.xquery,org.apache.synap
+ se.mediators.transform,org.apache.synapse.util.resolver";version="4.2
+ .0"
+Built-By: kevin
+Tool: Bnd-1.43.0
+Bundle-Name: org.wso2.carbon.mediation.dependency.mgt
+Created-By: Apache Maven Bundle Plugin
+Bundle-Vendor: WSO2 Inc
+DynamicImport-Package: *
+Build-Jdk: 1.6.0_45
+Bundle-Version: 4.2.0
+Bnd-LastModified: 1402956317320
+Bundle-ManifestVersion: 2
+Bundle-Description: Dependency management of Synapse and the required 
+ mediation fragments of the ESB
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0
+Import-Package: org.apache.commons.logging;resolution:=optional;versio
+ n="[1.1,2)",org.apache.synapse;resolution:=optional,org.apache.synaps
+ e.config;resolution:=optional,org.apache.synapse.core.axis2;resolutio
+ n:=optional,org.apache.synapse.endpoints;resolution:=optional,org.apa
+ che.synapse.eventing;resolution:=optional,org.apache.synapse.mediator
+ s;resolution:=optional,org.apache.synapse.mediators.base;resolution:=
+ optional,org.apache.synapse.mediators.bsf;resolution:=optional,org.ap
+ ache.synapse.mediators.builtin;resolution:=optional,org.apache.synaps
+ e.mediators.eip;resolution:=optional,org.apache.synapse.mediators.eip
+ .splitter;resolution:=optional,org.apache.synapse.mediators.spring;re
+ solution:=optional,org.apache.synapse.mediators.throttle;resolution:=
+ optional,org.apache.synapse.mediators.transform;resolution:=optional,
+ org.apache.synapse.mediators.xquery;resolution:=optional,org.apache.s
+ ynapse.util.resolver;resolution:=optional,org.osgi.framework;resoluti
+ on:=optional;version="[1.6,2)",org.osgi.service.component;resolution:
+ =optional;version="[1.2,2)",org.wso2.carbon.context;resolution:=optio
+ nal;version="[4.2,5)",org.wso2.carbon.mediators.router.impl;resolutio
+ n:=optional;version="[4.2,5)"
+Bundle-DocURL: http://wso2.org
+Bundle-SymbolicName: org.wso2.carbon.mediation.dependency.mgt
+

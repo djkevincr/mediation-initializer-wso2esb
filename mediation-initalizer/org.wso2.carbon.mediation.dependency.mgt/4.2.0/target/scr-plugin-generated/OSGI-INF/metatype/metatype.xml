@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.0.0" localization="OSGI-INF/metatype/metatype">
+    <OCD id="esb.config.dependency.mgt" name="%esb.config.dependency.mgt.name" description="%esb.config.dependency.mgt.description"/>
+    <Designate pid="esb.config.dependency.mgt">
+        <Object ocdref="esb.config.dependency.mgt"/>
+    </Designate>
+</metatype:MetaData>

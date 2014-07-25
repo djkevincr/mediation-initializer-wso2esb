@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.0.0" localization="OSGI-INF/metatype/metatype">
+    <OCD id="esb.core.initializer" name="%esb.core.initializer.name" description="%esb.core.initializer.description"/>
+    <Designate pid="esb.core.initializer">
+        <Object ocdref="esb.core.initializer"/>
+    </Designate>
+</metatype:MetaData>

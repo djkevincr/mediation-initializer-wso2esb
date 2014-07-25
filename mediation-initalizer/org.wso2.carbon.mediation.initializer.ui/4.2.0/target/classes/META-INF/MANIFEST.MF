@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Export-Package: org.wso2.carbon.mediation.initializer.ui.i18n;version=
+ "4.2.0"
+Built-By: kevin
+Tool: Bnd-1.43.0
+Bundle-Name: org.wso2.carbon.mediation.initializer.ui
+Created-By: Apache Maven Bundle Plugin
+Bundle-Vendor: WSO2 Inc
+DynamicImport-Package: *
+Build-Jdk: 1.6.0_45
+Bundle-Version: 4.2.0
+Bnd-LastModified: 1402956362386
+Bundle-ManifestVersion: 2
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0
+Bundle-Description: Declares the root mediation menu
+Bundle-DocURL: http://wso2.org
+Carbon-Component: UIBundle
+Bundle-SymbolicName: org.wso2.carbon.mediation.initializer.ui
+

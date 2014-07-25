@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><proxy xmlns="http://ws.apache.org/ns/synapse" name="proxy1" startOnLoad="true">
+    <target>
+        <endpoint name="inline.endpoint">
+            <address uri="http://localhost:9000/services/SimpleStockQuoteService"/>
+        </endpoint>
+        <inSequence>
+            <log/>
+        </inSequence>
+        <outSequence>
+            <send/>
+        </outSequence>
+    </target>
+</proxy>
